@@ -1,0 +1,18 @@
+# Normalize all text files automatically
+* text=auto
+
+# Python files should use LF line endings
+*.py text eol=lf
+
+# Jupyter notebooks should use LF line endings
+*.ipynb text eol=lf
+
+# Shell scripts should use LF (important for Unix systems)
+*.sh text eol=lf
+
+# Documentation files should use LF
+*.md text eol=lf
+*.txt text eol=lf
+
+# JSON config/data files should use LF
+*.json text eol=lf
