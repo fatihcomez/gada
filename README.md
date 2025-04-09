@@ -10,6 +10,7 @@ Data source: https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job
 ```bash
 docker build -t gada .
 docker run -p 8888:8888 gada
+```
 
 > Tip: If you're using Docker, make sure to install from `requirements.txt` only.  
 > For debugging or replicating the local environment exactly, use `requirements-freeze.txt`.
